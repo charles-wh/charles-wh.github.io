@@ -6,7 +6,7 @@
   <link href="https://blog.whema.net/atom.xml" rel="self"/>
   
   <link href="https://blog.whema.net/"/>
-  <updated>2023-07-31T08:19:11.167Z</updated>
+  <updated>2023-07-31T14:14:42.495Z</updated>
   <id>https://blog.whema.net/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://blog.whema.net/2023/07/28/blog-comment-test/"/>
     <id>https://blog.whema.net/2023/07/28/blog-comment-test/</id>
     <published>2023-07-28T08:59:44.000Z</published>
-    <updated>2023-07-31T08:19:11.167Z</updated>
+    <updated>2023-07-31T14:14:42.495Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="setup-doc"><a href="#setup-doc" class="headerlink" title="setup doc:"></a>setup doc:</h2><p><a href="https://www.anzifan.com/post/icarus_to_candy_2">基于腾讯云，给你的 Icarus 博客配上 Twikoo 评论系统 | 异次元de机智君 (anzifan.com)</a></p><h2 id="如何修改头像？"><a href="#如何修改头像？" class="headerlink" title="如何修改头像？"></a>如何修改头像？</h2><p>请前往 <a href="https://cravatar.cn/">https://cravatar.cnopen in new window</a> 通过邮箱注册并设定头像，评论时，请留下相同的邮箱。</p><p>访客还可以通过输入数字 QQ 邮箱地址，使用 QQ 头像发表评论。</p><h2 id="如何修改、重置管理员密码"><a href="#如何修改、重置管理员密码" class="headerlink" title="如何修改、重置管理员密码"></a>如何修改、重置管理员密码</h2><p>腾讯云请前往<a href="https://console.cloud.tencent.com/tcb/database/collection/config">云开发控制台open in new window</a>，Vercel 请前往 MongoDB，私有部署请直接编辑 <code>data/db.json.1</code>，编辑配置，删除 config.ADMIN_PASS 配置项，然后前往 Twikoo 管理面板重新设置密码。</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="setup-doc"><a href="#setup-doc" class="headerlink" title="setup doc:"></a>setup doc:</h2><p><a href="https://www.anzifan.com/post/icarus_to_candy_2">基于腾讯云，给你的 Icarus 博客配上 Twikoo 评论系统 | 异次元de机智君 (anzifan.com)</a></p><h2 id="如何修改头像？"><a href="#如何修改头像？" class="headerlink" title="如何修改头像？"></a>如何修改头像？</h2><p>请前往 <a href="https://cravatar.cn/">https://cravatar.cnopen</a> 通过邮箱注册并设定头像，评论时，请留下相同的邮箱。</p><p>访客还可以通过输入数字 QQ 邮箱地址，使用 QQ 头像发表评论。</p><h2 id="如何修改、重置管理员密码"><a href="#如何修改、重置管理员密码" class="headerlink" title="如何修改、重置管理员密码"></a>如何修改、重置管理员密码</h2><p>腾讯云请前往<a href="https://console.cloud.tencent.com/tcb/database/collection/config">云开发控制台</a>，Vercel 请前往 MongoDB，私有部署请直接编辑 <code>data/db.json.1</code>，编辑配置，删除 config.ADMIN_PASS 配置项，然后前往 Twikoo 管理面板重新设置密码。</p>]]></content>
     
     
       
@@ -41,21 +41,19 @@
   </entry>
   
   <entry>
-    <title>BLOG todos</title>
+    <title>BLOG DEV</title>
     <link href="https://blog.whema.net/2023/07/13/blog-todos/"/>
     <id>https://blog.whema.net/2023/07/13/blog-todos/</id>
     <published>2023-07-13T08:24:41.000Z</published>
-    <updated>2023-07-28T10:20:49.000Z</updated>
+    <updated>2023-07-31T15:47:44.000Z</updated>
     
-    <content type="html"><![CDATA[<ul><li><input checked="" disabled="" type="checkbox"> thumbnail: tag</li><li><input checked="" disabled="" type="checkbox"> 代码块默认展开</li><li><input disabled="" type="checkbox"> 代码块名字 - hexo 标签语法， icarus 参考？</li><li><input checked="" disabled="" type="checkbox"> logo</li><li><input checked="" disabled="" type="checkbox"> 底部版权 -&gt; js 脚本？</li><li><input disabled="" type="checkbox"> 文章加密插件</li><li><input disabled="" type="checkbox"> 选择显示</li><li><input checked="" disabled="" type="checkbox"> 背景图片</li><li><input disabled="" type="checkbox"> 网页加载加速？</li><li><input disabled="" type="checkbox"> 评论系统</li><li><input disabled="" type="checkbox"> 更改字体到 ‘霞鹜文楷’ ?</li><li><input disabled="" type="checkbox"> 头像改成圆框</li><li><input checked="" disabled="" type="checkbox"> night 模式（整体切换？）</li><li><input disabled="" type="checkbox"> 图片等链接改成英文 &#x2F; 加密</li><li><input disabled="" type="checkbox"> 任务列表前面还有个点</li><li><input checked="" disabled="" type="checkbox"> 主题问题</li><li><input checked="" disabled="" type="checkbox"> 基本信息添加</li><li><input checked="" disabled="" type="checkbox"> 网页图标</li><li><input checked="" disabled="" type="checkbox"> 头像</li><li><input checked="" disabled="" type="checkbox"> 异地同步测试</li><li><input checked="" disabled="" type="checkbox"> 图床系统</li></ul>]]></content>
+    <content type="html"><![CDATA[<h2 id="Todos"><a href="#Todos" class="headerlink" title="Todos"></a>Todos</h2><ul><li><input checked="" disabled="" type="checkbox"> thumbnail: tag</li><li><input checked="" disabled="" type="checkbox"> 代码块默认展开</li><li><input disabled="" type="checkbox"> 代码块名字 - hexo 标签语法， icarus 参考？</li><li><input checked="" disabled="" type="checkbox"> logo</li><li><input checked="" disabled="" type="checkbox"> 底部版权 -&gt; js 脚本？</li><li><input disabled="" type="checkbox"> 文章加密插件</li><li><input disabled="" type="checkbox"> 选择显示</li><li><input checked="" disabled="" type="checkbox"> 背景图片</li><li><input disabled="" type="checkbox"> 网页加载加速？</li><li><input disabled="" type="checkbox"> 评论系统</li><li><input disabled="" type="checkbox"> 更改字体到 ‘霞鹜文楷’ ?</li><li><input disabled="" type="checkbox"> 头像改成圆框</li><li><input checked="" disabled="" type="checkbox"> night 模式（整体切换？）</li><li><input disabled="" type="checkbox"> 图片等链接改成英文 &#x2F; 加密</li><li><input disabled="" type="checkbox"> 任务列表前面还有个点</li><li><input checked="" disabled="" type="checkbox"> 主题问题</li><li><input checked="" disabled="" type="checkbox"> 基本信息添加</li><li><input checked="" disabled="" type="checkbox"> 网页图标</li><li><input checked="" disabled="" type="checkbox"> 头像</li><li><input checked="" disabled="" type="checkbox"> 异地同步测试</li><li><input checked="" disabled="" type="checkbox"> 图床系统</li></ul><h2 id="CDN"><a href="#CDN" class="headerlink" title="CDN"></a>CDN</h2>]]></content>
     
     
       
       
-    <summary type="html">&lt;ul&gt;
-&lt;li&gt;&lt;input checked=&quot;&quot; disabled=&quot;&quot; type=&quot;checkbox&quot;&gt; thumbnail: tag&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&quot;&quot; disabled=&quot;&quot; type=&quot;checkbox&quot;&gt; 代码块默认展开&lt;/li&gt;
-</summary>
+    <summary type="html">&lt;h2 id=&quot;Todos&quot;&gt;&lt;a href=&quot;#Todos&quot; class=&quot;headerlink&quot; title=&quot;Todos&quot;&gt;&lt;/a&gt;Todos&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&quot;&quot; disabled=&quot;&quot; type=&quot;checkbox&quot;&gt; thumb</summary>
       
     
     
