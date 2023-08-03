@@ -6,9 +6,9 @@ backend:
   app_id: 933bf722-5f09-4455-aef9-aa48a4b63d55
   tenant_id: 0fdae3a8-ac40-4e2b-abdd-0135eac78f38
 media_folder: "source/images"
-public_folder: "/imgs"
+public_folder: "/images"
 site_url: "https://blog.whema.net"
-logo_url: "https://blog.whema.net/images/logo.png"
+logo_url: ""
 locale: "zh_Hans"
 common_col_conf: &common_col_conf
   create: true
@@ -43,6 +43,10 @@ common_col_conf: &common_col_conf
       name: "cover"
       widget: "image"
       required: false
+    - label: "缩略图"
+      name: "thumbnail"
+      widget: "image"
+      required: false
     - label: "标签"
       name: "tags"
       widget: "select"
@@ -58,8 +62,6 @@ common_col_conf: &common_col_conf
         - "hexo"
         - "icarus"
         - "twikoo"
-        - "xlsx"
-        - "小程序"
     - label: "分类"
       name: "categories"
       widget: "select"
@@ -75,9 +77,6 @@ common_col_conf: &common_col_conf
     - label: "正文"
       name: "body"
       widget: "markdown"
-    - label: 'Code'
-      name: 'code'
-      widget: 'code'
     - label: "原创"
       name: "toc"
       widget: "boolean"

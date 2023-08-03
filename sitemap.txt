@@ -1,7 +1,7 @@
+https://blog.whema.net/2023/07/28/2023/blog-comment-test/
 https://blog.whema.net/2023/08/03/2023/blog-admin/
-https://blog.whema.net/2023/07/28/blog-comment-test/
-https://blog.whema.net/2023/08/02/blog-cicd/
-https://blog.whema.net/2023/07/13/blog-todos/
+https://blog.whema.net/2023/08/02/2023/blog-cicd/
+https://blog.whema.net/2023/07/13/2023/blog-todos/
 https://blog.whema.net/friends/index.html
 https://blog.whema.net/contact/index.html
 https://blog.whema.net/about/index.html

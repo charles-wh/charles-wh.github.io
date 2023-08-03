@@ -23,7 +23,7 @@
     <published>2023-08-03T06:46:29.000Z</published>
     <updated>2023-08-03T06:46:41.000Z</updated>
     
-    <content type="html"><![CDATA[<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&lt;!doctype</span> <span class="string">html&gt;</span></span><br><span class="line"><span class="string">&lt;html&gt;</span></span><br><span class="line"><span class="string">&lt;head&gt;</span></span><br><span class="line">  <span class="string">&lt;meta</span> <span class="string">charset=&quot;utf-8&quot;</span> <span class="string">/&gt;</span></span><br><span class="line">  <span class="string">&lt;meta</span> <span class="string">name=&quot;viewport&quot;</span> <span class="string">content=&quot;width=device-width,</span> <span class="string">initial-scale=1.0&quot;</span> <span class="string">/&gt;</span></span><br><span class="line">  <span class="string">&lt;meta</span> <span class="string">name=&quot;robots&quot;</span> <span class="string">content=&quot;noindex&quot;</span> <span class="string">/&gt;</span></span><br><span class="line">  <span class="string">&lt;title&gt;博客管理&lt;/title&gt;</span></span><br><span class="line"><span class="string">&lt;/head&gt;</span></span><br><span class="line"><span class="string">&lt;body&gt;</span></span><br><span class="line">  <span class="string">&lt;script</span> <span class="string">src=&quot;https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js&quot;&gt;&lt;/script&gt;</span></span><br><span class="line"><span class="string">&lt;/body&gt;</span></span><br><span class="line"><span class="string">&lt;/html&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&lt;!doctype</span> <span class="string">html&gt;</span></span><br><span class="line"><span class="string">&lt;html&gt;</span></span><br><span class="line"><span class="string">&lt;head&gt;</span></span><br><span class="line">  <span class="string">&lt;meta</span> <span class="string">charset=&quot;utf-8&quot;</span> <span class="string">/&gt;</span></span><br><span class="line">  <span class="string">&lt;meta</span> <span class="string">name=&quot;viewport&quot;</span> <span class="string">content=&quot;width=device-width,</span> <span class="string">initial-scale=1.0&quot;</span> <span class="string">/&gt;</span></span><br><span class="line">  <span class="string">&lt;meta</span> <span class="string">name=&quot;robots&quot;</span> <span class="string">content=&quot;noindex&quot;</span> <span class="string">/&gt;</span></span><br><span class="line">  <span class="string">&lt;title&gt;博客管理&lt;/title&gt;</span></span><br><span class="line"><span class="string">&lt;/head&gt;</span></span><br><span class="line"><span class="string">&lt;body&gt;</span></span><br><span class="line">  <span class="string">&lt;script</span> <span class="string">src=&quot;https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js&quot;&gt;&lt;/script&gt;</span></span><br><span class="line"><span class="string">&lt;/body&gt;</span></span><br><span class="line"><span class="string">&lt;/html&gt;</span></span><br></pre></td></tr></table></figure><p><img src="/images/gaucho-in-a-wild-west-sunset-landscape-vector.jpg" alt="alt text" title="image title"></p>]]></content>
     
     
       
@@ -42,8 +42,8 @@
   
   <entry>
     <title>使用azure管理源码，并且自动部署</title>
-    <link href="https://blog.whema.net/2023/08/02/blog-cicd/"/>
-    <id>https://blog.whema.net/2023/08/02/blog-cicd/</id>
+    <link href="https://blog.whema.net/2023/08/02/2023/blog-cicd/"/>
+    <id>https://blog.whema.net/2023/08/02/2023/blog-cicd/</id>
     <published>2023-08-01T17:04:55.000Z</published>
     <updated>2023-08-01T17:18:18.000Z</updated>
     
@@ -70,10 +70,10 @@
   
   <entry>
     <title>评论功能测试</title>
-    <link href="https://blog.whema.net/2023/07/28/blog-comment-test/"/>
-    <id>https://blog.whema.net/2023/07/28/blog-comment-test/</id>
+    <link href="https://blog.whema.net/2023/07/28/2023/blog-comment-test/"/>
+    <id>https://blog.whema.net/2023/07/28/2023/blog-comment-test/</id>
     <published>2023-07-28T08:59:44.000Z</published>
-    <updated>2023-08-01T17:22:42.626Z</updated>
+    <updated>2023-08-03T07:35:14.470Z</updated>
     
     <content type="html"><![CDATA[<h2 id="setup-doc"><a href="#setup-doc" class="headerlink" title="setup doc:"></a>setup doc:</h2><p><a href="https://www.anzifan.com/post/icarus_to_candy_2">基于腾讯云，给你的 Icarus 博客配上 Twikoo 评论系统 | 异次元de机智君 (anzifan.com)</a></p><h2 id="如何修改头像？"><a href="#如何修改头像？" class="headerlink" title="如何修改头像？"></a>如何修改头像？</h2><p>请前往 <a href="https://cravatar.cn/">https://cravatar.cnopen</a> 通过邮箱注册并设定头像，评论时，请留下相同的邮箱。</p><p>访客还可以通过输入数字 QQ 邮箱地址，使用 QQ 头像发表评论。</p><h2 id="如何修改、重置管理员密码"><a href="#如何修改、重置管理员密码" class="headerlink" title="如何修改、重置管理员密码"></a>如何修改、重置管理员密码</h2><p>腾讯云请前往<a href="https://console.cloud.tencent.com/tcb/database/collection/config">云开发控制台</a>，Vercel 请前往 MongoDB，私有部署请直接编辑 <code>data/db.json.1</code>，编辑配置，删除 config.ADMIN_PASS 配置项，然后前往 Twikoo 管理面板重新设置密码。</p>]]></content>
     
@@ -94,12 +94,12 @@
   
   <entry>
     <title>BLOG开发待办</title>
-    <link href="https://blog.whema.net/2023/07/13/blog-todos/"/>
-    <id>https://blog.whema.net/2023/07/13/blog-todos/</id>
+    <link href="https://blog.whema.net/2023/07/13/2023/blog-todos/"/>
+    <id>https://blog.whema.net/2023/07/13/2023/blog-todos/</id>
     <published>2023-07-13T08:24:41.000Z</published>
     <updated>2023-07-31T15:47:44.000Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="Todos"><a href="#Todos" class="headerlink" title="Todos"></a>Todos</h2><ul><li><input disabled="" type="checkbox"> CDN加速</li><li><input disabled="" type="checkbox"> 目录</li><li><input disabled="" type="checkbox"> 在线编辑系统</li><li><input disabled="" type="checkbox"> 评论区的设置按钮屏蔽</li><li><input checked="" disabled="" type="checkbox"> azure 自动部署</li><li><input checked="" disabled="" type="checkbox"> thumbnail: tag</li><li><input checked="" disabled="" type="checkbox"> 代码块默认展开</li><li><input checked="" disabled="" type="checkbox"> 代码块名字 - hexo 标签语法， icarus 参考？</li><li><input checked="" disabled="" type="checkbox"> logo</li><li><input checked="" disabled="" type="checkbox"> 底部版权 -&gt; js 脚本？</li><li><input disabled="" type="checkbox"> 文章加密插件</li><li><input disabled="" type="checkbox"> 选择显示</li><li><input checked="" disabled="" type="checkbox"> 背景图片</li><li><input disabled="" type="checkbox"> 网页加载加速？</li><li><input checked="" disabled="" type="checkbox"> 评论系统</li><li><input disabled="" type="checkbox"> 更改字体到 ‘霞鹜文楷’ ?</li><li><input disabled="" type="checkbox"> 头像改成圆框</li><li><input checked="" disabled="" type="checkbox"> night 模式（整体切换？）</li><li><input disabled="" type="checkbox"> 图片等链接改成英文 &#x2F; 加密</li><li><input disabled="" type="checkbox"> 任务列表前面还有个点</li><li><input checked="" disabled="" type="checkbox"> 主题问题</li><li><input checked="" disabled="" type="checkbox"> 基本信息添加</li><li><input checked="" disabled="" type="checkbox"> 网页图标</li><li><input checked="" disabled="" type="checkbox"> 头像</li><li><input checked="" disabled="" type="checkbox"> 异地同步测试</li><li><input checked="" disabled="" type="checkbox"> 图床系统</li></ul>]]></content>
+    <content type="html"><![CDATA[<h2 id="Todos"><a href="#Todos" class="headerlink" title="Todos"></a>Todos</h2><ul><li><input disabled="" type="checkbox"> CDN加速</li><li><input disabled="" type="checkbox"> 目录</li><li><input checked="" disabled="" type="checkbox"> 在线编辑系统</li><li><input disabled="" type="checkbox"> 评论区的设置按钮屏蔽</li><li><input checked="" disabled="" type="checkbox"> azure 自动部署</li><li><input checked="" disabled="" type="checkbox"> thumbnail: tag</li><li><input checked="" disabled="" type="checkbox"> 代码块默认展开</li><li><input checked="" disabled="" type="checkbox"> 代码块名字 - hexo 标签语法， icarus 参考？</li><li><input checked="" disabled="" type="checkbox"> logo</li><li><input checked="" disabled="" type="checkbox"> 底部版权 -&gt; js 脚本？</li><li><input disabled="" type="checkbox"> 文章加密插件</li><li><input disabled="" type="checkbox"> 选择显示</li><li><input checked="" disabled="" type="checkbox"> 背景图片</li><li><input disabled="" type="checkbox"> 网页加载加速？</li><li><input checked="" disabled="" type="checkbox"> 评论系统</li><li><input disabled="" type="checkbox"> 更改字体到 ‘霞鹜文楷’ ?</li><li><input disabled="" type="checkbox"> 头像改成圆框</li><li><input checked="" disabled="" type="checkbox"> night 模式（整体切换？）</li><li><input disabled="" type="checkbox"> 图片等链接改成英文 &#x2F; 加密</li><li><input disabled="" type="checkbox"> 任务列表前面还有个点</li><li><input checked="" disabled="" type="checkbox"> 主题问题</li><li><input checked="" disabled="" type="checkbox"> 基本信息添加</li><li><input checked="" disabled="" type="checkbox"> 网页图标</li><li><input checked="" disabled="" type="checkbox"> 头像</li><li><input checked="" disabled="" type="checkbox"> 异地同步测试</li><li><input checked="" disabled="" type="checkbox"> 图床系统</li></ul>]]></content>
     
     
       
