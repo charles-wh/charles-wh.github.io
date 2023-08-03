@@ -11685,9 +11685,6 @@ body:before {
   background: url("/img/cute.webp") repeat;
 }
 .navbar {
-  z-index: 100;
-  position: sticky;
-  top: 0;
   background-color: rgba(255,255,255,0.7);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
@@ -11746,11 +11743,6 @@ body:before {
   .column-right.is-sticky,
   .column-right-shadow.is-sticky {
     top: 70px;
-  }
-  .navbar {
-    z-index: 100;
-    position: sticky;
-    top: 0;
   }
 }
 .article .content {
