@@ -6,7 +6,7 @@
   <link href="https://blog.whema.net/atom.xml" rel="self"/>
   
   <link href="https://blog.whema.net/"/>
-  <updated>2023-08-01T17:18:18.000Z</updated>
+  <updated>2023-08-03T06:46:41.000Z</updated>
   <id>https://blog.whema.net/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>集成管理系统</title>
+    <link href="https://blog.whema.net/2023/08/03/2023/blog-admin/"/>
+    <id>https://blog.whema.net/2023/08/03/2023/blog-admin/</id>
+    <published>2023-08-03T06:46:29.000Z</published>
+    <updated>2023-08-03T06:46:41.000Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&lt;!doctype</span> <span class="string">html&gt;</span></span><br><span class="line"><span class="string">&lt;html&gt;</span></span><br><span class="line"><span class="string">&lt;head&gt;</span></span><br><span class="line">  <span class="string">&lt;meta</span> <span class="string">charset=&quot;utf-8&quot;</span> <span class="string">/&gt;</span></span><br><span class="line">  <span class="string">&lt;meta</span> <span class="string">name=&quot;viewport&quot;</span> <span class="string">content=&quot;width=device-width,</span> <span class="string">initial-scale=1.0&quot;</span> <span class="string">/&gt;</span></span><br><span class="line">  <span class="string">&lt;meta</span> <span class="string">name=&quot;robots&quot;</span> <span class="string">content=&quot;noindex&quot;</span> <span class="string">/&gt;</span></span><br><span class="line">  <span class="string">&lt;title&gt;博客管理&lt;/title&gt;</span></span><br><span class="line"><span class="string">&lt;/head&gt;</span></span><br><span class="line"><span class="string">&lt;body&gt;</span></span><br><span class="line">  <span class="string">&lt;script</span> <span class="string">src=&quot;https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js&quot;&gt;&lt;/script&gt;</span></span><br><span class="line"><span class="string">&lt;/body&gt;</span></span><br><span class="line"><span class="string">&lt;/html&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;figure class=&quot;highlight yaml&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=</summary>
+      
+    
+    
+    
+    <category term="Tool" scheme="https://blog.whema.net/categories/Tool/"/>
+    
+    
+    <category term="azure" scheme="https://blog.whema.net/tags/azure/"/>
+    
+  </entry>
   
   <entry>
     <title>使用azure管理源码，并且自动部署</title>
