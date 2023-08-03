@@ -1,0 +1,125 @@
+# https://decapcms.org/docs/configuration-options/
+backend:
+  name: azure
+  repo: blogorg01/blogPrj/blogPrj
+  branch: main
+  app_id: 933bf722-5f09-4455-aef9-aa48a4b63d55
+  tenant_id: 0fdae3a8-ac40-4e2b-abdd-0135eac78f38
+media_folder: "source/gallery/2023"
+public_folder: "/gallery/2023"
+site_url: "https://blog.whema.net"
+logo_url: "https://blog.whema.net/images/logo.png"
+locale: "zh_Hans"
+common_col_conf: &common_col_conf
+  create: true
+  slug: "{{fields.filename}}"
+  sortable_fields:
+    - "commit_date"
+    - "title"
+    - "date"
+    - "updated"
+  # https://decapcms.org/docs/widgets/
+  fields:
+    - label: "文件名"
+      name: "filename"
+      widget: "string"
+    - label: "标题"
+      name: "title"
+      widget: "string"
+    - label: "发表日期"
+      name: "date"
+      widget: "datetime"
+      format: "YYYY-MM-DD HH:mm:ss"
+      date_format: "YYYY-MM-DD"
+      time_format: "HH:mm:ss"
+    - label: "更新日期"
+      name: "updated"
+      widget: "datetime"
+      format: "YYYY-MM-DD HH:mm:ss"
+      date_format: "YYYY-MM-DD"
+      time_format: "HH:mm:ss"
+      required: false
+    - label: "封面"
+      name: "cover"
+      widget: "image"
+      required: false
+    - label: "标签"
+      name: "tags"
+      widget: "select"
+      multiple: true
+      required: false
+      options:
+        - "amazon"
+        - "android"
+        - "angularjs"
+        - "azure"
+        - "cdn"
+        - "chartjs"
+        - "chrome"
+        - "csharp"
+        - "css"
+        - "devops"
+        - "diary"
+        - "docker"
+        - "edge"
+        - "git"
+        - "github"
+        - "hexo"
+        - "html"
+        - "icarus"
+        - "java"
+        - "js"
+        - "life"
+        - "material"
+        - "mysql"
+        - "nodejs"
+        - "onedrive"
+        - "oneindex"
+        - "php"
+        - "restapi"
+        - "security"
+        - "serverless"
+        - "shadowdefender"
+        - "tool"
+        - "twikoo"
+        - "ubuntu"
+        - "vagrant"
+        - "vb"
+        - "vite"
+        - "vue"
+        - "webpack"
+        - "windows"
+        - "xlsx"
+        - "小程序"
+    - label: "分类"
+      name: "categories"
+      widget: "select"
+      multiple: true
+      required: false
+      options:
+        - "Diary"
+        - "Tool"
+        - "Tech"
+        - "FrontEnd"
+        - "BackEnd"
+        - "Windows"
+        - "Android"
+        - "Linux"
+        - "Serverless"
+    - label: "正文"
+      name: "body"
+      widget: "markdown"
+    - label: "原创"
+      name: "toc"
+      widget: "boolean"
+      default: true
+    - label: "评论"
+      name: "comments"
+      widget: "boolean"
+      default: true
+collections:
+  - name: "2023"
+    label: "2023"
+    folder: "source/_posts/2023"
+    preview_path: "2023/{{filename}}/"
+    <<: *common_col_conf
