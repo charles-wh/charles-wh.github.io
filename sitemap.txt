@@ -1,5 +1,5 @@
-https://blog.whema.net/2023/07/28/2023/blog-comment-test/
 https://blog.whema.net/2023/08/03/2023/blog-admin/
+https://blog.whema.net/2023/07/28/2023/blog-comment-test/
 https://blog.whema.net/2023/08/02/2023/blog-cicd/
 https://blog.whema.net/2023/07/13/2023/blog-todos/
 https://blog.whema.net/friends/index.html
@@ -14,5 +14,5 @@ https://blog.whema.net/tags/Markdown/
 https://blog.whema.net/tags/Hexo/
 https://blog.whema.net/tags/azure/
 https://blog.whema.net/tags/cicd/
+https://blog.whema.net/tags/devops/
 https://blog.whema.net/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/
-https://blog.whema.net/categories/Tool/

@@ -6,7 +6,7 @@
   <link href="https://blog.whema.net/atom.xml" rel="self"/>
   
   <link href="https://blog.whema.net/"/>
-  <updated>2023-08-03T06:46:41.000Z</updated>
+  <updated>2023-08-03T07:45:27.000Z</updated>
   <id>https://blog.whema.net/</id>
   
   <author>
@@ -21,22 +21,25 @@
     <link href="https://blog.whema.net/2023/08/03/2023/blog-admin/"/>
     <id>https://blog.whema.net/2023/08/03/2023/blog-admin/</id>
     <published>2023-08-03T06:46:29.000Z</published>
-    <updated>2023-08-03T06:46:41.000Z</updated>
+    <updated>2023-08-03T07:45:27.000Z</updated>
     
-    <content type="html"><![CDATA[<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&lt;!doctype</span> <span class="string">html&gt;</span></span><br><span class="line"><span class="string">&lt;html&gt;</span></span><br><span class="line"><span class="string">&lt;head&gt;</span></span><br><span class="line">  <span class="string">&lt;meta</span> <span class="string">charset=&quot;utf-8&quot;</span> <span class="string">/&gt;</span></span><br><span class="line">  <span class="string">&lt;meta</span> <span class="string">name=&quot;viewport&quot;</span> <span class="string">content=&quot;width=device-width,</span> <span class="string">initial-scale=1.0&quot;</span> <span class="string">/&gt;</span></span><br><span class="line">  <span class="string">&lt;meta</span> <span class="string">name=&quot;robots&quot;</span> <span class="string">content=&quot;noindex&quot;</span> <span class="string">/&gt;</span></span><br><span class="line">  <span class="string">&lt;title&gt;博客管理&lt;/title&gt;</span></span><br><span class="line"><span class="string">&lt;/head&gt;</span></span><br><span class="line"><span class="string">&lt;body&gt;</span></span><br><span class="line">  <span class="string">&lt;script</span> <span class="string">src=&quot;https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js&quot;&gt;&lt;/script&gt;</span></span><br><span class="line"><span class="string">&lt;/body&gt;</span></span><br><span class="line"><span class="string">&lt;/html&gt;</span></span><br></pre></td></tr></table></figure><p><img src="/images/gaucho-in-a-wild-west-sunset-landscape-vector.jpg" alt="alt text" title="image title"></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><ol><li><a href="https://www.imaegoo.com/2023/hexo-decap/">Hexo 博客集成内容管理系统 Decap - iMaeGoo’s Blog</a></li></ol><h2 id="Notes"><a href="#Notes" class="headerlink" title="Notes"></a>Notes</h2><ol><li>azure organization 需要创建在对应的directory中，否则需要switch</li></ol>]]></content>
     
     
       
       
-    <summary type="html">&lt;figure class=&quot;highlight yaml&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=</summary>
+    <summary type="html">&lt;h2 id=&quot;参考&quot;&gt;&lt;a href=&quot;#参考&quot; class=&quot;headerlink&quot; title=&quot;参考&quot;&gt;&lt;/a&gt;参考&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.imaegoo.com/2023/hexo-decap/&quot;&gt;Hexo 博客集成内容管理</summary>
       
     
     
     
-    <category term="Tool" scheme="https://blog.whema.net/categories/Tool/"/>
+    <category term="博客搭建" scheme="https://blog.whema.net/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
     
     <category term="azure" scheme="https://blog.whema.net/tags/azure/"/>
+    
+    <category term="devops" scheme="https://blog.whema.net/tags/devops/"/>
     
   </entry>
   
