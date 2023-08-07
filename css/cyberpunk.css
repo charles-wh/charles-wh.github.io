@@ -11668,7 +11668,18 @@ figure.highlight .section {
     width: 22%;
   }
   .container .column.is-6-widescreen {
-    width: 56%;
+    width: 55%;
+  }
+  .container .column.is-10-widescreen {
+    width: 93%;
+  }
+  .container .column.is-4-widescreen {
+    width: 30%;
+  }
+  .navbar {
+    z-index: 100;
+    position: sticky;
+    top: 0;
   }
 }
 body {
@@ -11725,7 +11736,7 @@ body:before {
 }
 .card {
   overflow: visible;
-  transition: background-color 0.5s ease;
+  transition: background-color 0.3s ease;
   background-color: rgba(255,255,255,0.95);
 }
 .card:hover {
@@ -11743,7 +11754,7 @@ body:before {
   .column-left.is-sticky,
   .column-right.is-sticky,
   .column-right-shadow.is-sticky {
-    top: 70px;
+    top: 60px;
   }
 }
 .article .content {

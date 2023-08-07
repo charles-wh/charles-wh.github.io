@@ -43,10 +43,6 @@ common_col_conf: &common_col_conf
       name: "cover"
       widget: "image"
       required: false
-    - label: "缩略图"
-      name: "thumbnail"
-      widget: "image"
-      required: false
     - label: "标签"
       name: "tags"
       widget: "select"

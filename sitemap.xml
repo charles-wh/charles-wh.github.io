@@ -2,7 +2,61 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.whema.net/2023/07/13/2023/blog-todos/</loc>
+    <loc>https://blog.whema.net/posts/1506906846.html</loc>
+    
+    <lastmod>2023-08-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.whema.net/posts/4188190999.html</loc>
+    
+    <lastmod>2023-08-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.whema.net/posts/3351413263.html</loc>
+    
+    <lastmod>2023-08-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.whema.net/posts/1194929326.html</loc>
+    
+    <lastmod>2023-08-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.whema.net/posts/2083683398.html</loc>
+    
+    <lastmod>2023-08-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.whema.net/posts/2605347505.html</loc>
+    
+    <lastmod>2023-08-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.whema.net/posts/2904355322.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -11,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://blog.whema.net/2023/08/03/2023/blog-article-style/</loc>
+    <loc>https://blog.whema.net/posts/1433606758.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -20,25 +74,7 @@
   </url>
   
   <url>
-    <loc>https://blog.whema.net/2023/07/28/2023/blog-comment-test/</loc>
-    
-    <lastmod>2023-08-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.whema.net/2023/08/03/2023/blog-admin/</loc>
-    
-    <lastmod>2023-08-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.whema.net/2023/08/02/2023/blog-cicd/</loc>
+    <loc>https://blog.whema.net/posts/2793637540.html</loc>
     
     <lastmod>2023-08-01</lastmod>
     
@@ -94,7 +130,7 @@
 
   <url>
     <loc>https://blog.whema.net/</loc>
-    <lastmod>2023-08-03</lastmod>
+    <lastmod>2023-08-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -102,56 +138,56 @@
   
   <url>
     <loc>https://blog.whema.net/tags/azure/</loc>
-    <lastmod>2023-08-03</lastmod>
+    <lastmod>2023-08-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.whema.net/tags/devops/</loc>
-    <lastmod>2023-08-03</lastmod>
+    <lastmod>2023-08-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.whema.net/tags/Bulma/</loc>
-    <lastmod>2023-08-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.whema.net/tags/cicd/</loc>
-    <lastmod>2023-08-03</lastmod>
+    <lastmod>2023-08-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.whema.net/tags/twikoo/</loc>
-    <lastmod>2023-08-03</lastmod>
+    <lastmod>2023-08-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.whema.net/tags/Typora/</loc>
-    <lastmod>2023-08-03</lastmod>
+    <lastmod>2023-08-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.whema.net/tags/Markdown/</loc>
-    <lastmod>2023-08-03</lastmod>
+    <lastmod>2023-08-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.whema.net/tags/Hexo/</loc>
-    <lastmod>2023-08-03</lastmod>
+    <lastmod>2023-08-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.whema.net/tags/cicd/</loc>
+    <lastmod>2023-08-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -160,7 +196,28 @@
   
   <url>
     <loc>https://blog.whema.net/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</loc>
-    <lastmod>2023-08-03</lastmod>
+    <lastmod>2023-08-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.whema.net/categories/%E5%8F%A8%E5%92%95%E5%8F%A8%E5%92%95/</loc>
+    <lastmod>2023-08-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.whema.net/categories/%E6%BA%9C%E8%BE%BE%E6%BA%9C%E8%BE%BE/</loc>
+    <lastmod>2023-08-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.whema.net/categories/%E7%8C%AB%E5%9B%BE%E7%A7%80%E7%A7%80/</loc>
+    <lastmod>2023-08-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
