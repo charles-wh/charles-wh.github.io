@@ -11396,6 +11396,10 @@ figure.highlight .section {
     display: block;
   }
 }
+#toc {
+  max-height: calc(100vh - 22px);
+  overflow-y: scroll;
+}
 .donate {
   position: relative;
 }
@@ -11841,9 +11845,6 @@ article .title:hover a {
 }
 .article-licensing {
   z-index: 0;
-}
-#busuanzi_container_page_pv {
-  display: none !important;
 }
 .card .v .vlist .vcard .vcontent {
   text-align: inherit;

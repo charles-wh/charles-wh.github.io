@@ -1,4 +1,5 @@
 # https://decapcms.org/docs/configuration-options/
+local_backend: true
 backend:
   name: azure
   repo: blogorg01/blogPrj/blogPrj
@@ -9,8 +10,9 @@ media_folder: "source/images"
 public_folder: "/images"
 site_url: "https://blog.whema.net"
 logo_url: ""
-locale: "zh_Hans"
-common_col_conf: &common_col_conf
+locale: "en"
+
+cfg: &cfg
   create: true
   slug: "{{fields.filename}}"
   sortable_fields:
@@ -20,30 +22,30 @@ common_col_conf: &common_col_conf
     - "updated"
   # https://decapcms.org/docs/widgets/
   fields:
-    - label: "文件名"
+    - label: "filename"
       name: "filename"
       widget: "string"
-    - label: "标题"
+    - label: "title"
       name: "title"
       widget: "string"
-    - label: "发表日期"
+    - label: "Publish Date"
       name: "date"
       widget: "datetime"
       format: "YYYY-MM-DD HH:mm:ss"
       date_format: "YYYY-MM-DD"
       time_format: "HH:mm:ss"
-    - label: "更新日期"
+    - label: "Updeted Date"
       name: "updated"
       widget: "datetime"
       format: "YYYY-MM-DD HH:mm:ss"
       date_format: "YYYY-MM-DD"
       time_format: "HH:mm:ss"
       required: false
-    - label: "封面"
+    - label: "cover"
       name: "cover"
       widget: "image"
       required: false
-    - label: "标签"
+    - label: "Tags"
       name: "tags"
       widget: "select"
       multiple: true
@@ -58,7 +60,7 @@ common_col_conf: &common_col_conf
         - "hexo"
         - "icarus"
         - "twikoo"
-    - label: "分类"
+    - label: "Categories"
       name: "categories"
       widget: "select"
       multiple: true
@@ -70,7 +72,7 @@ common_col_conf: &common_col_conf
         - "捣鼓捣鼓"
         - "溜达溜达"
         - "猫图秀秀"
-    - label: "正文"
+    - label: "blog post content"
       name: "body"
       widget: "markdown"
     - label: "原创"
@@ -82,8 +84,24 @@ common_col_conf: &common_col_conf
       widget: "boolean"
       default: true
 collections:
-  - name: "2023"
-    label: "2023"
+  - name: "post-2023"
+    label: "Post-2023"
     folder: "source/_posts/2023"
     preview_path: "2023/{{filename}}/"
-    <<: *common_col_conf
+    <<: *cfg
+  - name: "pages"
+    label: "Pages"
+    files:
+      - name: "sefl-tracking"
+        label: "打卡"
+        file: "source/self-tracking/index.md"
+        fields:
+        - label: "Publish Date"
+          name: "date"
+          widget: "datetime"
+          format: "YYYY-MM-DD HH:mm:ss"
+          date_format: "YYYY-MM-DD"
+          time_format: "HH:mm:ss"
+        - label: "self-tracking"
+          name: "body"
+          widget: "markdown"
