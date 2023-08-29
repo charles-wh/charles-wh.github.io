@@ -16,10 +16,8 @@ cfg: &cfg
   create: true
   slug: "{{fields.filename}}"
   sortable_fields:
-    - "commit_date"
     - "title"
     - "date"
-    - "updated"
   # https://decapcms.org/docs/widgets/
   fields:
     - label: "filename"
@@ -28,13 +26,13 @@ cfg: &cfg
     - label: "title"
       name: "title"
       widget: "string"
-    - label: "Publish Date"
+    - label: "publish date"
       name: "date"
       widget: "datetime"
       format: "YYYY-MM-DD HH:mm:ss"
       date_format: "YYYY-MM-DD"
       time_format: "HH:mm:ss"
-    - label: "Updeted Date"
+    - label: "updeted date"
       name: "updated"
       widget: "datetime"
       format: "YYYY-MM-DD HH:mm:ss"
@@ -45,12 +43,17 @@ cfg: &cfg
       name: "cover"
       widget: "image"
       required: false
-    - label: "Tags"
+    - label: "thumbnail"
+      name: "thumbnail"
+      widget: "image"
+      required: false
+    - label: "tags"
       name: "tags"
       widget: "select"
       multiple: true
       required: false
       options:
+        - "猫窝"
         - "azure"
         - "cdn"
         - "devops"
@@ -60,7 +63,7 @@ cfg: &cfg
         - "hexo"
         - "icarus"
         - "twikoo"
-    - label: "Categories"
+    - label: "categories"
       name: "categories"
       widget: "select"
       multiple: true
@@ -72,17 +75,19 @@ cfg: &cfg
         - "捣鼓捣鼓"
         - "溜达溜达"
         - "猫图秀秀"
-    - label: "blog post content"
-      name: "body"
-      widget: "markdown"
-    - label: "原创"
-      name: "toc"
-      widget: "boolean"
-      default: true
-    - label: "评论"
+        - "转载"
+    - label: "copy_from"
+      name: "copy_from"
+      widget: "string"
+      default: ""
+      required: false
+    - label: "comments"
       name: "comments"
       widget: "boolean"
       default: true
+    - label: "blog post content"
+      name: "body"
+      widget: "markdown"
 collections:
   - name: "post-2023"
     label: "Post-2023"
@@ -92,9 +97,9 @@ collections:
   - name: "pages"
     label: "Pages"
     files:
-      - name: "sefl-tracking"
-        label: "打卡"
-        file: "source/self-tracking/index.md"
+      - name: "sports"
+        label: "sports"
+        file: "source/sports/index.md"
         fields:
         - label: "Publish Date"
           name: "date"
@@ -102,6 +107,6 @@ collections:
           format: "YYYY-MM-DD HH:mm:ss"
           date_format: "YYYY-MM-DD"
           time_format: "HH:mm:ss"
-        - label: "self-tracking"
+        - label: "sports"
           name: "body"
           widget: "markdown"
