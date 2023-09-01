@@ -6,7 +6,7 @@
   <link href="https://blog.whema.net/atom.xml" rel="self"/>
   
   <link href="https://blog.whema.net/"/>
-  <updated>2023-08-29T06:40:29.000Z</updated>
+  <updated>2023-09-01T06:05:46.000Z</updated>
   <id>https://blog.whema.net/</id>
   
   <author>
@@ -17,21 +17,70 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>张杰演唱会</title>
+    <link href="https://blog.whema.net/posts/537290213.html"/>
+    <id>https://blog.whema.net/posts/537290213.html</id>
+    <published>2023-09-01T06:05:46.000Z</published>
+    <updated>2023-09-01T06:05:46.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>第二次来看演唱会，还是在鸟巢~</p><p>看下来全程3个小时，量大管饱，不过也就第一首歌最美的太阳比较熟悉了，后面大多数歌都没听过。。</p><p>可能是第三天的演出的原因，感觉张杰嗓子有点哑，不过3个小时唱跳下来，羡慕身体好啊！</p><p>周围的观众，女男比例至少7:3，大多数男的都是陪女朋友来的，中间一次互动唱歌，女生pk秒杀男生。。。</p><p>不过女生多了就很养眼了，很多女生都在场外编了头发，系了蓝色丝带，青春洋溢的氛围拉满~</p><p>看到一半闻到一股菠萝味，还跟老婆说谁吃菠萝了，哪想过了一会看到脚下流过了一滩饮料，把背包都浸湿了。。回头瞅瞅，也不知道从上面几层留下来的。 ε&#x3D;(´ο｀*))) </p><p>tips：</p><ol><li>记得下次看演唱会买一杯水就够了~</li><li>不要在地方上放包！</li></ol><span id="more"></span><p><img src="https://img.whema.net:50043/i/2023/09/64f17f96e3cbd.jpg"></p><p><img src="https://img.whema.net:50043/i/2023/09/64f17fba7c933.jpg"></p><p><img src="https://img.whema.net:50043/i/2023/09/64f17fcb18eec.jpg"></p><p><img src="https://img.whema.net:50043/i/2023/09/64f17fe4e18f2.jpg"></p><p><img src="https://img.whema.net:50043/i/2023/09/64f17fd668d5a.jpg"></p><p><img src="https://img.whema.net:50043/i/2023/09/64f17a63ea922.jpg"></p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;第二次来看演唱会，还是在鸟巢~&lt;/p&gt;
+&lt;p&gt;看下来全程3个小时，量大管饱，不过也就第一首歌最美的太阳比较熟悉了，后面大多数歌都没听过。。&lt;/p&gt;
+&lt;p&gt;可能是第三天的演出的原因，感觉张杰嗓子有点哑，不过3个小时唱跳下来，羡慕身体好啊！&lt;/p&gt;
+&lt;p&gt;周围的观众，女男比例至少7:3，大多数男的都是陪女朋友来的，中间一次互动唱歌，女生pk秒杀男生。。。&lt;/p&gt;
+&lt;p&gt;不过女生多了就很养眼了，很多女生都在场外编了头发，系了蓝色丝带，青春洋溢的氛围拉满~&lt;/p&gt;
+&lt;p&gt;看到一半闻到一股菠萝味，还跟老婆说谁吃菠萝了，哪想过了一会看到脚下流过了一滩饮料，把背包都浸湿了。。回头瞅瞅，也不知道从上面几层留下来的。 ε&amp;#x3D;(´ο｀*))) &lt;/p&gt;
+&lt;p&gt;tips：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;记得下次看演唱会买一杯水就够了~&lt;/li&gt;
+&lt;li&gt;不要在地方上放包！&lt;/li&gt;
+&lt;/ol&gt;</summary>
+    
+    
+    
+    <category term="溜达溜达" scheme="https://blog.whema.net/categories/%E6%BA%9C%E8%BE%BE%E6%BA%9C%E8%BE%BE/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>lsky图床在nas上的搭建</title>
+    <link href="https://blog.whema.net/posts/3054654241.html"/>
+    <id>https://blog.whema.net/posts/3054654241.html</id>
+    <published>2023-09-01T03:08:42.000Z</published>
+    <updated>2023-09-01T03:08:42.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>之前blog里面的图片都是放在静态网站的路径下，这样挺好。但是最近azure 上的git无法连接了，我把blog 的src code都放到了NAS git上，那么自然地在线网站后台也就用不了了。</p><p>现在写文章都是在本地用Typora + hexo s预览，在处理图片时需要手动修改图片的路径，并且在Typora 里面没法预览，只能在hexo s里预览。</p><p>这就很不方便了，因为在手动修改路径时，要来回对照图片的文件名，很不方便。另外就是之后处理大量图片的post时，拖动图片到文章段落符合编辑直觉，方便很多。</p><span id="more"></span><p>这时我就想起了Typora + PicGo的图床组合。</p><p>之前PicGo的后端图床用了NAS git，每次提交修改在服务器后台都是增量，即使是删除图片。NAS git作为图床在管理云端图片时也非常麻烦，后来也就弃用了。</p><p>这回看到了上面转载链接的文章，按照步骤很容易就搭建了宝塔面板+兰空图床+PicGo，但是在最后一步外网访问的时候，文章里的方式不适用了。</p><p>好在在极空间论坛里又找到了一篇攻略，按照下面的方式在npm中设置反向代理。</p><figure class="highlight cpp"><figcaption><span>【教程】Lsky Docker版本图床部署</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">proxy_set_header X-Forwarded-Host $http_host;</span><br></pre></td></tr></table></figure><p><img src="https://img.whema.net:50043/i/2023/09/64f17c85a1ec7.jpg"></p><p>参考文章：</p><p><a href="https://blog.aayu.today/nas/zspace/20220822/">手拉手教你在极空间Docker宝塔上搭建兰空图床（Lsky）</a></p><p><a href="https://github.com/hellodk34/picgo-plugin-lankong">hellodk34&#x2F;picgo-plugin-lankong</a></p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;之前blog里面的图片都是放在静态网站的路径下，这样挺好。但是最近azure 上的git无法连接了，我把blog 的src code都放到了NAS git上，那么自然地在线网站后台也就用不了了。&lt;/p&gt;
+&lt;p&gt;现在写文章都是在本地用Typora + hexo s预览，在处理图片时需要手动修改图片的路径，并且在Typora 里面没法预览，只能在hexo s里预览。&lt;/p&gt;
+&lt;p&gt;这就很不方便了，因为在手动修改路径时，要来回对照图片的文件名，很不方便。另外就是之后处理大量图片的post时，拖动图片到文章段落符合编辑直觉，方便很多。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="捣鼓捣鼓" scheme="https://blog.whema.net/categories/%E6%8D%A3%E9%BC%93%E6%8D%A3%E9%BC%93/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>NAS上搭建gitea使用ssh</title>
     <link href="https://blog.whema.net/posts/1122212547.html"/>
     <id>https://blog.whema.net/posts/1122212547.html</id>
     <published>2023-08-29T06:40:29.000Z</published>
     <updated>2023-08-29T06:40:29.000Z</updated>
     
-    <content type="html"><![CDATA[<p>在极空间上搭建gitea的流程如上图，这个我很早前就搭好了，但是ssh一直没法使用。</p><p>最近azure上放的blog源代码无法访问了，git 22端口连接总是超时，不但在办公室，而且在家里都没法连接。</p><p>这个就很烦了！！！</p><p>这时候我想起自己搭建的gitea，总归是个备选，所以又重新仔细研究了一下这篇文章。</p><p>思考了一下问题还是在内网到外网的域名处理上。</p><p>最后解决方式如下：</p><ol><li><p>在路由器里通过端口映射，把外网ip的xxx22端口映射到NAS对应ip的相同端口上，类型选TCP即可。</p></li><li><p>修改gitea docker设置：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">[server]</span><br><span class="line">APP_DATA_PATH    = /data/gitea</span><br><span class="line">DOMAIN           = xxxx.whema.net</span><br><span class="line">SSH_DOMAIN       = xxxx.whema.net</span><br><span class="line">HTTP_PORT        = xxxx</span><br><span class="line">ROOT_URL         = https://xxxx.whema.net:50043</span><br><span class="line">DISABLE_SSH      = false</span><br><span class="line">SSH_PORT         = xxx22</span><br><span class="line">SSH_LISTEN_PORT  = xxx22</span><br></pre></td></tr></table></figure></li><li><p>可以在本地<code>.ssh/</code>目录下创建<code>config</code>文件，就可以直接ssh连接了</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Host xxxx.whema.net</span><br><span class="line">Hostname xxxx.whema.net</span><br><span class="line">Port xxx22</span><br></pre></td></tr></table></figure></li></ol>]]></content>
+    <content type="html"><![CDATA[<p>在极空间上搭建gitea的流程如上面链接中的文章，这个我很早前就搭好了，<strong>但是ssh一直没法使用</strong>。</p><p>最近azure上放的blog源代码无法访问了，git 22端口连接总是超时，不但在办公室，而且在家里都没法连接。</p><p>这个就很烦了！！！</p><p>这时候我想起自己搭建的gitea，总归是个备选，所以又重新仔细研究了一下这篇文章。</p><p>思考了一下问题还是在内网到外网的域名处理上。</p><p>最后解决方式如下：</p><ol><li><p>在路由器里通过端口映射，把外网ip的xxx22端口映射到NAS对应ip的相同端口上，类型选TCP即可。</p></li><li><p>修改gitea docker设置：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">[server]</span><br><span class="line">APP_DATA_PATH    = /data/gitea</span><br><span class="line">DOMAIN           = xxxx.whema.net</span><br><span class="line">SSH_DOMAIN       = xxxx.whema.net</span><br><span class="line">HTTP_PORT        = xxxx</span><br><span class="line">ROOT_URL         = https://xxxx.whema.net:50043</span><br><span class="line">DISABLE_SSH      = false</span><br><span class="line">SSH_PORT         = xxx22</span><br><span class="line">SSH_LISTEN_PORT  = xxx22</span><br></pre></td></tr></table></figure></li><li><p>可以在本地<code>.ssh/</code>目录下创建<code>config</code>文件，就可以直接ssh连接了</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Host xxxx.whema.net</span><br><span class="line">Hostname xxxx.whema.net</span><br><span class="line">Port xxx22</span><br></pre></td></tr></table></figure></li></ol>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;在极空间上搭建gitea的流程如上图，这个我很早前就搭好了，但是ssh一直没法使用。&lt;/p&gt;
+    <summary type="html">&lt;p&gt;在极空间上搭建gitea的流程如上面链接中的文章，这个我很早前就搭好了，&lt;strong&gt;但是ssh一直没法使用&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;最近azure上放的blog源代码无法访问了，git 22端口连接总是超时，不但在办公室，而且在家里都没法连接。&lt;/p&gt;
-&lt;p&gt;这个就很烦了！！！&lt;/p&gt;
-&lt;p&gt;这时候我想起</summary>
+&lt;p&gt;</summary>
       
     
     
@@ -497,60 +546,6 @@
     
     
     <category term="Bulma" scheme="https://blog.whema.net/tags/Bulma/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>集成管理系统</title>
-    <link href="https://blog.whema.net/posts/1433606758.html"/>
-    <id>https://blog.whema.net/posts/1433606758.html</id>
-    <published>2023-08-03T06:46:29.000Z</published>
-    <updated>2023-08-03T07:45:27.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><ol><li><a href="https://www.imaegoo.com/2023/hexo-decap/">Hexo 博客集成内容管理系统 Decap - iMaeGoo’s Blog</a></li></ol><h2 id="Notes"><a href="#Notes" class="headerlink" title="Notes"></a>Notes</h2><ol><li><p>azure organization 需要创建在对应的directory中，否则需要switch</p></li><li><p>本地调试：</p><ol><li>&#x2F;source&#x2F;admin&#x2F;config.yml：最上面添加<code>local_backend: true</code></li><li><code>hexo g</code> 后生成的&#x2F;public路径下：<code>npx netlify-cms-proxy-server</code></li><li><a href="http://localhost:4000/admin%E5%8D%B3%E5%8F%AF">http://localhost:4000/admin即可</a></li></ol></li><li><p>编辑器里面输入中文字符，光标异动问题</p><p>搜索了github issues，应该是decap cms 用到的slate版本问题，但是通过unpkg cdn引用的js文件是最新的，就很奇怪。</p><p>通过分析demo 网站上的后台js，发现跟cdn上的js不一样，更换js之后问题解决</p><p><a href="https://github.com/decaporg/decap-cms/issues/1347">Updating Slate editor to support Korean · Issue #1347 · decaporg&#x2F;decap-cms (github.com)</a></p><ol><li><p>从下面这个地址获取有效的js文件，放到&#x2F;source&#x2F;admin&#x2F;下</p><p><a href="https://cms-demo.netlify.com/dist/netlify-cms.js">cms-demo.netlify.com&#x2F;dist&#x2F;netlify-cms.js</a></p></li><li><p>修改：</p><figure class="highlight html"><figcaption><span>/source/admin/index.html</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;netlify-cms.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br></pre></td></tr></table></figure></li></ol></li></ol>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;参考&quot;&gt;&lt;a href=&quot;#参考&quot; class=&quot;headerlink&quot; title=&quot;参考&quot;&gt;&lt;/a&gt;参考&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.imaegoo.com/2023/hexo-decap/&quot;&gt;Hexo 博客集成内容管理</summary>
-      
-    
-    
-    
-    <category term="博客搭建" scheme="https://blog.whema.net/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
-    
-    
-    <category term="azure" scheme="https://blog.whema.net/tags/azure/"/>
-    
-    <category term="devops" scheme="https://blog.whema.net/tags/devops/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>使用azure管理源码，并且自动部署</title>
-    <link href="https://blog.whema.net/posts/2793637540.html"/>
-    <id>https://blog.whema.net/posts/2793637540.html</id>
-    <published>2023-08-01T17:04:55.000Z</published>
-    <updated>2023-08-01T17:18:18.000Z</updated>
-    
-    <content type="html"><![CDATA[<ol><li><a href="https://www.imaegoo.com/2019/hexo-ci/">给Hexo博客配置Azure CI持续集成实现自动部署 - iMaeGoo’s Blog</a></li><li><a href="https://www.jianshu.com/p/a541a11fe9d8">利用(微软)Azure DevOps实现Hexo自动部署 - 简书 (jianshu.com)</a></li></ol><p>最后的配置文件：</p><span id="more"></span><figure class="highlight yaml"><figcaption><span>ci.yml</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">trigger:</span></span><br><span class="line"></span><br><span class="line"><span class="bullet">-</span> <span class="string">main</span> <span class="comment"># Hexo 原项目分支名</span></span><br><span class="line"></span><br><span class="line"><span class="attr">pool:</span></span><br><span class="line">  <span class="attr">vmImage:</span> <span class="string">&#x27;Ubuntu-20.04&#x27;</span> <span class="comment"># 运行环境</span></span><br><span class="line"></span><br><span class="line"><span class="attr">steps:</span></span><br><span class="line"></span><br><span class="line"><span class="bullet">-</span> <span class="attr">task:</span> <span class="string">NodeTool@0</span> <span class="comment"># 安装NodeJS</span></span><br><span class="line">  <span class="attr">inputs:</span></span><br><span class="line">    <span class="attr">versionSpec:</span> <span class="string">&#x27;18.x&#x27;</span></span><br><span class="line">  <span class="attr">displayName:</span> <span class="string">&#x27;Installing Node.js...&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="bullet">-</span> <span class="attr">task:</span> <span class="string">InstallSSHKey@0</span> <span class="comment"># 导入SSH</span></span><br><span class="line">  <span class="attr">inputs:</span></span><br><span class="line">    <span class="attr">hostName:</span> <span class="string">github.com,149.129.100.153</span> <span class="comment"># 本地~/.ssh下的know_hosts文件里面的内容(和你git域名对应的那一行)</span></span><br><span class="line">    <span class="attr">sshPublicKey:</span> <span class="comment">#本地~/.ssh下的id_rsa.pub内容</span></span><br><span class="line">    <span class="attr">sshKeySecureFile:</span> <span class="string">id_rsa</span> <span class="comment"># 对应私钥文件名</span></span><br><span class="line">  <span class="attr">displayName:</span> <span class="string">&#x27;Installing SSH...&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 安装Hexo脚手架，Hexo依赖</span></span><br><span class="line"></span><br><span class="line"><span class="bullet">-</span> <span class="attr">script:</span> <span class="string">|</span></span><br><span class="line"><span class="string">  npm install -g hexo-cli</span></span><br><span class="line"><span class="string">  npm install</span></span><br><span class="line"><span class="string">  displayName: &#x27;Installing dependencies...&#x27;</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="comment"># 清理（可选），生成public静态目录（可选）</span></span><br><span class="line"></span><br><span class="line"><span class="bullet">-</span> <span class="attr">script:</span> <span class="string">|</span></span><br><span class="line"><span class="string">  hexo clean</span></span><br><span class="line"><span class="string">  hexo g</span></span><br><span class="line"><span class="string">  displayName: &#x27;Building...&#x27;</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="comment"># 这里由于我有两个page托管仓库需要部署，所以需要添加 git.dev.tencent.com 的 fingerprint 到 known_hosts</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># ssh-keyscan -t rsa git.outlook.com &gt;&gt; ~/.ssh/known_hosts</span></span><br><span class="line"></span><br><span class="line"><span class="bullet">-</span> <span class="attr">script:</span> <span class="string">|</span></span><br><span class="line"><span class="string">  git config --global user.name &quot;XXXXX&quot;</span></span><br><span class="line"><span class="string">  git config --global user.email &quot;XXXXX&quot;</span></span><br><span class="line"><span class="string">  hexo d</span></span><br><span class="line"><span class="string">  displayName: &#x27;Deploying...&#x27;</span></span><br></pre></td></tr></table></figure><h2 id="Notes"><a href="#Notes" class="headerlink" title="Notes"></a>Notes</h2><ol><li>必须上传私钥，并且打开访问权限</li><li>_config.yml里面必须用ssh方式的git地址</li><li>不需要额外分支，在main下加上ci.yml即可</li></ol>]]></content>
-    
-    
-    <summary type="html">&lt;ol&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.imaegoo.com/2019/hexo-ci/&quot;&gt;给Hexo博客配置Azure CI持续集成实现自动部署 - iMaeGoo’s Blog&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.jianshu.com/p/a541a11fe9d8&quot;&gt;利用(微软)Azure DevOps实现Hexo自动部署 - 简书 (jianshu.com)&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;最后的配置文件：&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="博客搭建" scheme="https://blog.whema.net/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
-    
-    
-    <category term="azure" scheme="https://blog.whema.net/tags/azure/"/>
-    
-    <category term="cicd" scheme="https://blog.whema.net/tags/cicd/"/>
     
   </entry>
   
