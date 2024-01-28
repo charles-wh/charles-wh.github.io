@@ -1,0 +1,112 @@
+# https://decapcms.org/docs/configuration-options/
+local_backend: true
+backend:
+  name: azure
+  repo: blogorg01/blogPrj/blogPrj
+  branch: main
+  app_id: 933bf722-5f09-4455-aef9-aa48a4b63d55
+  tenant_id: 0fdae3a8-ac40-4e2b-abdd-0135eac78f38
+media_folder: "source/images"
+public_folder: "/images"
+site_url: "https://blog.whema.net"
+logo_url: ""
+locale: "en"
+
+cfg: &cfg
+  create: true
+  slug: "{{fields.filename}}"
+  sortable_fields:
+    - "title"
+    - "date"
+  # https://decapcms.org/docs/widgets/
+  fields:
+    - label: "filename"
+      name: "filename"
+      widget: "string"
+    - label: "title"
+      name: "title"
+      widget: "string"
+    - label: "publish date"
+      name: "date"
+      widget: "datetime"
+      format: "YYYY-MM-DD HH:mm:ss"
+      date_format: "YYYY-MM-DD"
+      time_format: "HH:mm:ss"
+    - label: "updeted date"
+      name: "updated"
+      widget: "datetime"
+      format: "YYYY-MM-DD HH:mm:ss"
+      date_format: "YYYY-MM-DD"
+      time_format: "HH:mm:ss"
+      required: false
+    - label: "cover"
+      name: "cover"
+      widget: "image"
+      required: false
+    - label: "thumbnail"
+      name: "thumbnail"
+      widget: "image"
+      required: false
+    - label: "tags"
+      name: "tags"
+      widget: "select"
+      multiple: true
+      required: false
+      options:
+        - "猫窝"
+        - "azure"
+        - "cdn"
+        - "devops"
+        - "docker"
+        - "git"
+        - "github"
+        - "hexo"
+        - "icarus"
+        - "twikoo"
+    - label: "categories"
+      name: "categories"
+      widget: "select"
+      multiple: true
+      required: false
+      options:
+        - "博客搭建"
+        - "猫窝"
+        - "叨咕叨咕"
+        - "捣鼓捣鼓"
+        - "溜达溜达"
+        - "猫图秀秀"
+        - "转载"
+    - label: "copy_from"
+      name: "copy_from"
+      widget: "string"
+      default: ""
+      required: false
+    - label: "comments"
+      name: "comments"
+      widget: "boolean"
+      default: true
+    - label: "blog post content"
+      name: "body"
+      widget: "markdown"
+collections:
+  - name: "post-2023"
+    label: "Post-2023"
+    folder: "source/_posts/2023"
+    preview_path: "2023/{{filename}}/"
+    <<: *cfg
+  - name: "pages"
+    label: "Pages"
+    files:
+      - name: "sports"
+        label: "sports"
+        file: "source/sports/index.md"
+        fields:
+        - label: "Publish Date"
+          name: "date"
+          widget: "datetime"
+          format: "YYYY-MM-DD HH:mm:ss"
+          date_format: "YYYY-MM-DD"
+          time_format: "HH:mm:ss"
+        - label: "sports"
+          name: "body"
+          widget: "markdown"

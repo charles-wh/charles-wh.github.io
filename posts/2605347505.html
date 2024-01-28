@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="zh"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta><title>BLOG开发记录 - Charles的猫窝</title><link rel="manifest" href="/manifest.json"><meta name="application-name" content="Charles的猫窝"><meta name="msapplication-TileImage" content="/images/cat_avatar.jpg"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Charles的猫窝"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="description" content="记录搭建博客时遇到的问题，和下一步需要做的事情"><meta property="og:type" content="blog"><meta property="og:title" content="BLOG开发记录"><meta property="og:url" content="https://blog.whema.net/posts/2605347505.html"><meta property="og:site_name" content="Charles的猫窝"><meta property="og:description" content="记录搭建博客时遇到的问题，和下一步需要做的事情"><meta property="og:locale" content="zh_CN"><meta property="og:image" content="https://blog.whema.net/img/og_image.png"><meta property="article:published_time" content="2023-07-13T08:24:41.000Z"><meta property="article:modified_time" content="2023-08-08T06:37:30.000Z"><meta property="article:author" content="Charles-wh"><meta property="article:tag" content="Typora"><meta property="article:tag" content="Markdown"><meta property="article:tag" content="Hexo"><meta property="twitter:card" content="summary"><meta property="twitter:image:src" content="https://blog.whema.net/img/og_image.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://blog.whema.net/posts/2605347505.html"},"headline":"Charles的猫窝","image":["https://blog.whema.net/img/og_image.png"],"datePublished":"2023-07-13T08:24:41.000Z","dateModified":"2023-08-08T06:37:30.000Z","author":{"@type":"Person","name":"Charles-wh"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject"}},"description":"记录搭建博客时遇到的问题，和下一步需要做的事情"}</script><link rel="canonical" href="https://blog.whema.net/posts/2605347505.html"><link rel="icon" href="/images/cat_avatar.jpg"><link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/font-awesome/6.0.0/css/all.min.css"><link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css"><link rel="stylesheet" href="https://fonts.loli.net/css2?family=Ubuntu:wght@400;600&amp;family=Source+Code+Pro"><link rel="stylesheet" href="/css/default.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><!--!--><!--!--><script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" defer></script><!--!--><link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/cookieconsent/3.1.1/cookieconsent.min.css"><link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/lightgallery/1.10.0/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/justifiedGallery/3.8.1/css/justifiedGallery.min.css"><!--!--><!--!--><style>.pace{-webkit-pointer-events:none;pointer-events:none;-webkit-user-select:none;-moz-user-select:none;user-select:none}.pace-inactive{display:none}.pace .pace-progress{background:#3273dc;position:fixed;z-index:2000;top:0;right:100%;width:100%;height:2px}</style><script src="https://cdnjs.loli.net/ajax/libs/pace/1.2.4/pace.min.js"></script><!--!--><!--!--><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="Charles的猫窝" type="application/atom+xml">
+</head><body class="is-2-column"><script type="text/javascript" src="/js/imaegoo/night.js"></script><canvas id="universe"></canvas><nav class="navbar navbar-main"><div class="container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/">Charles的猫窝</a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">主页</a><a class="navbar-item" href="/archives">时间轴</a><a class="navbar-item" href="/categories">分类</a><a class="navbar-item" href="/tags">标签</a><a class="navbar-item" href="/sports">运动</a></div><div class="navbar-end"><a class="navbar-item is-hidden-tablet catalogue" title="目录" href="javascript:;"><i class="fas fa-list-ul"></i></a><a class="navbar-item night" id="night-nav" title="Night Mode" href="javascript:;"><i class="fas fa-moon" id="night-icon"></i></a><a class="navbar-item search" title="搜索" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-10-tablet is-10-desktop is-10-widescreen"><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item copyright article-title type-2">原创</span><span class="level-item"><i class="far fa-calendar-alt"> </i><time dateTime="2023-07-13T08:24:41.000Z" title="2023-07-13T08:24:41.000Z">2023-07-13</time></span><span class="level-item is-hidden-mobile"><i class="far fa-calendar-check"> </i><time dateTime="2023-08-08T06:37:30.000Z" title="2023-08-08T06:37:30.000Z">2023-08-08</time></span><span class="level-item"><i class="far fa-user"> </i>Charles-wh </span><span class="level-item"><i class="far fa-folder-open"> </i><a class="link-muted" href="/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">博客搭建</a></span><span class="level-item"><i class="far fa-clock"> </i>4 分钟读完 (大约639个字)</span><span class="level-item" id="busuanzi_container_page_pv"><i class="far fa-eye"></i>&nbsp;&nbsp;<span id="busuanzi_value_page_pv">0</span>次访问</span></div></div><h1 class="title is-3 is-size-4-mobile">BLOG开发记录</h1><div class="copyright article-block type-2"><p>版权申明：本文为原创文章，转载请注明原文出处</p><p>原文链接：<a href="https://blog.whema.net/posts/2605347505.html" target="_blank">https://blog.whema.net/posts/2605347505.html</a></p></div><div class="content"><p>记录搭建博客时遇到的问题，和下一步需要做的事情</p>
+<span id="more"></span>
+
+<script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=cbf0ff&w=800&t=m&d=Yo8_bf2isEauvaTottGhUd9YAxTuOpdH1X3PQTVPQzs&co=32aaff&cmo=00b92d&cmn=ff9500"></script>
+
+<script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=cbf0ff&w=a&t=tt&d=Yo8_bf2isEauvaTottGhUd9YAxTuOpdH1X3PQTVPQzs&co=32aaff&cmo=00b92d&cmn=ff9500"></script>
+
+<h2 id="Todos"><a href="#Todos" class="headerlink" title="Todos"></a>Todos</h2><ul>
+<li><p><input checked="" disabled="" type="checkbox"> 
+最新文章按照更新时间排序</p>
+</li>
+<li><p><input disabled="" type="checkbox"> 
+AI 生成logo</p>
+</li>
+<li><p><input checked="" disabled="" type="checkbox"> 
+开启不蒜子统计</p>
+<p><a target="_blank" rel="noopener" href="https://removeif.github.io/theme/%E4%B8%8D%E8%92%9C%E5%AD%90%E7%BB%9F%E8%AE%A1%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98.html">不蒜子统计常见问题 - 辣椒の酱 (removeif.github.io)</a></p>
+</li>
+<li><p><input checked="" disabled="" type="checkbox"> 
+插入视频？</p>
+</li>
+<li><p><input checked="" disabled="" type="checkbox"> 
+<del>图片压缩</del></p>
+</li>
+<li><p><input checked="" disabled="" type="checkbox"> 
+<del>CDN加速</del> 暂时不加这个</p>
+</li>
+<li><p><input checked="" disabled="" type="checkbox"> 
+目录</p>
+</li>
+<li><p><input checked="" disabled="" type="checkbox"> 
+在线编辑系统</p>
+</li>
+<li><p><input checked="" disabled="" type="checkbox"> 
+评论区的设置按钮屏蔽 - 在设置里面有选项</p>
+</li>
+<li><p><input checked="" disabled="" type="checkbox"> 
+azure 自动部署</p>
+</li>
+<li><p><input checked="" disabled="" type="checkbox"> 
+thumbnail: tag</p>
+</li>
+<li><p><input checked="" disabled="" type="checkbox"> 
+代码块默认展开</p>
+</li>
+<li><p><input checked="" disabled="" type="checkbox"> 
+代码块名字 - hexo 标签语法， icarus 参考？</p>
+</li>
+<li><p><input checked="" disabled="" type="checkbox"> 
+logo</p>
+</li>
+<li><p><input checked="" disabled="" type="checkbox"> 
+底部版权 -&gt; js 脚本？</p>
+</li>
+<li><p><input checked="" disabled="" type="checkbox"> 
+文章加密插件</p>
+<p><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/113235573">对 Hexo 博客文章进行加密 - 知乎 (zhihu.com)</a></p>
+<p><a target="_blank" rel="noopener" href="https://github.com/D0n9X1n/hexo-blog-encrypt/blob/master/ReadMe.zh.md">hexo-blog-encrypt&#x2F;ReadMe.zh.md at master · D0n9X1n&#x2F;hexo-blog-encrypt (github.com)</a></p>
+</li>
+<li><p><input checked="" disabled="" type="checkbox"> 
+显示 <code>read more</code></p>
+</li>
+<li><p><input checked="" disabled="" type="checkbox"> 
+背景图片</p>
+</li>
+<li><p><input checked="" disabled="" type="checkbox"> 
+评论系统</p>
+</li>
+<li><p><input disabled="" type="checkbox"> 
+更改字体到 ‘霞鹜文楷’ ?</p>
+</li>
+<li><p><input checked="" disabled="" type="checkbox"> 
+头像改成圆框</p>
+</li>
+<li><p><input checked="" disabled="" type="checkbox"> 
+night 模式（整体切换？）</p>
+</li>
+<li><p><input checked="" disabled="" type="checkbox"> 
+<del>图片等链接改成英文 &#x2F; 加密</del></p>
+</li>
+<li><p><input checked="" disabled="" type="checkbox"> 
+<del>任务列表前面还有个点</del></p>
+</li>
+<li><p><input checked="" disabled="" type="checkbox"> 
+主题问题</p>
+</li>
+<li><p><input checked="" disabled="" type="checkbox"> 
+基本信息添加</p>
+</li>
+<li><p><input checked="" disabled="" type="checkbox"> 
+网页图标</p>
+</li>
+<li><p><input checked="" disabled="" type="checkbox"> 
+头像</p>
+</li>
+<li><p><input checked="" disabled="" type="checkbox"> 
+异地同步测试</p>
+</li>
+<li><p><input checked="" disabled="" type="checkbox"> 
+图床系统</p>
+</li>
+</ul>
+<h2 id="Notes"><a href="#Notes" class="headerlink" title="Notes"></a>Notes</h2><h3 id="顶部导航栏固定，并且网页端固定，手机端不固定"><a href="#顶部导航栏固定，并且网页端固定，手机端不固定" class="headerlink" title="顶部导航栏固定，并且网页端固定，手机端不固定"></a>顶部导航栏固定，并且网页端固定，手机端不固定</h3><figure class="highlight styl"><figcaption><span>themes\icarus\source\css\imaegoo.styl</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">@media</span> screen <span class="keyword">and</span> (<span class="attribute">min-width</span>: screen-onek)</span><br><span class="line">    .container</span><br><span class="line">        <span class="attribute">max-width</span>: <span class="number">1600px</span></span><br><span class="line">        <span class="attribute">width</span>: <span class="number">1600px</span></span><br><span class="line">        .column.is-<span class="number">3</span>-widescreen</span><br><span class="line">            <span class="attribute">width</span>: <span class="number">22%</span></span><br><span class="line">        .column.is-<span class="number">6</span>-widescreen</span><br><span class="line">            <span class="attribute">width</span>: <span class="number">60%</span></span><br><span class="line">    .navbar</span><br><span class="line">        z-index: <span class="number">100</span></span><br><span class="line">        position: sticky</span><br><span class="line">        top: <span class="number">0</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="没有显示read-more"><a href="#没有显示read-more" class="headerlink" title="没有显示read more"></a>没有显示<code>read more</code></h3>   <figure class="highlight html"><figcaption><span>在文章适当位置插入</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!--more--&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>如果还是没有：</p>
+   <figure class="highlight yaml"><figcaption><span>_config.yml</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">read_more_btn:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h3><p>需要在文章头部加入<code>toc: true</code>：</p>
+   <figure class="highlight markdown"><figcaption><span>post.md</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">title: 一篇有目录的文章</span><br><span class="line"><span class="section">toc: true</span></span><br><span class="line"><span class="section">---</span></span><br><span class="line">文章内容...</span><br></pre></td></tr></table></figure>
+
+<p> 固定widgets：</p>
+   <figure class="highlight yaml"><figcaption><span>_config.icarus.yml</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">sidebar:</span></span><br><span class="line">    <span class="comment"># Left sidebar configurations</span></span><br><span class="line">    <span class="attr">left:</span></span><br><span class="line">        <span class="comment"># Whether the sidebar sticks to the top when page scrolls</span></span><br><span class="line">        <span class="attr">sticky:</span> <span class="literal">true</span></span><br><span class="line">    <span class="comment"># Right sidebar configurations</span></span><br><span class="line">    <span class="attr">right:</span></span><br><span class="line">        <span class="comment"># Whether the sidebar sticks to the top when page scrolls</span></span><br><span class="line">        <span class="attr">sticky:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="优化移动端显示"><a href="#优化移动端显示" class="headerlink" title="优化移动端显示"></a>优化移动端显示</h3><p>在移动端，隐藏 <code>archive</code> 和 <code>tags</code>。</p>
+   <figure class="highlight js"><figcaption><span>diff:source/js/main.js</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">     &#125;</span><br><span class="line">+</span><br><span class="line">+    $(<span class="string">&#x27;div.container div.card[data-type=tags]&#x27;</span>).<span class="title function_">addClass</span>(<span class="string">&#x27;is-hidden-mobile&#x27;</span>);</span><br><span class="line">+    $(<span class="string">&#x27;div.container div.card[data-type=archives]&#x27;</span>).<span class="title function_">addClass</span>(<span class="string">&#x27;is-hidden-mobile&#x27;</span>);</span><br><span class="line"> &#125;(jQuery, <span class="variable language_">window</span>.<span class="property">moment</span>, <span class="variable language_">window</span>.<span class="property">ClipboardJS</span>, <span class="variable language_">window</span>.<span class="property">IcarusThemeSettings</span>));</span><br></pre></td></tr></table></figure>
+
+<h3 id="目录粘性定位"><a href="#目录粘性定位" class="headerlink" title="目录粘性定位"></a>目录粘性定位</h3><p>原来只支持侧边栏整体粘性定位，为了阅读体验，只针对目录开启粘性定位，增加 <code>column-left is-sticky</code> 类，并调整样式。</p>
+   <figure class="highlight js"><figcaption><span>diff:source/js/main.js</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">     <span class="keyword">if</span> ($toc.<span class="property">length</span> &gt; <span class="number">0</span>) &#123;</span><br><span class="line">+        $toc.<span class="title function_">addClass</span>(<span class="string">&#x27;column-left is-sticky&#x27;</span>);</span><br><span class="line">         <span class="keyword">const</span> $mask = $(<span class="string">&#x27;&lt;div&gt;&#x27;</span>);</span><br></pre></td></tr></table></figure>
+
+ <figure class="highlight js"><figcaption><span>diff:include/style/widget.styl</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">+#toc</span><br><span class="line">+    max-<span class="attr">height</span>: <span class="title function_">calc</span>(100vh - 22px)</span><br><span class="line">+    overflow-<span class="attr">y</span>: scroll</span><br></pre></td></tr></table></figure>
+
+<h3 id="map-color"><a href="#map-color" class="headerlink" title="map color"></a>map color</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">#32aaff</span><br><span class="line">#cbf0ff</span><br><span class="line">#00b92d</span><br><span class="line">#ff9500</span><br></pre></td></tr></table></figure>
+
+
+
+</div><div class="article-tags is-size-7 mb-4"><span class="mr-2">#</span><a class="link-muted mr-2" rel="tag" href="/tags/Typora/">Typora</a><a class="link-muted mr-2" rel="tag" href="/tags/Markdown/">Markdown</a><a class="link-muted mr-2" rel="tag" href="/tags/Hexo/">Hexo</a></div><!--!--></article></div><!--!--><div class="card"><nav class="post-navigation mt-4 level is-mobile card-content"><div class="level-start"><a class="article-nav-prev level level-item link-muted" href="/posts/2083683398.html"><i class="level-item fas fa-chevron-left"></i><span class="level-item">评论功能测试</span></a></div></nav></div><!--!--></div><div class="column column-left is-4-tablet is-4-desktop is-4-widescreen  order-1"><div class="card widget" data-type="profile"><div class="card-content"><nav class="level"><div class="level-item has-text-centered flex-shrink-1"><div><figure class="image is-128x128 mx-auto mb-2"><img class="avatar is-rounded" src="/images/cat_avatar.jpg" alt="CharlesWH"></figure><p class="title is-size-4 is-block" style="line-height:inherit;">CharlesWH</p><p class="is-size-6 is-flex justify-content-center"><i class="fas fa-map-marker-alt mr-1"></i><span>BeiJing</span></p></div></div></nav><nav class="level is-mobile"><div class="level-item has-text-centered is-marginless"><div><p class="heading">文章</p><a href="/archives"><p class="title">27</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">分类</p><a href="/categories"><p class="title">7</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">标签</p><a href="/tags"><p class="title">9</p></a></div></div></nav></div></div><div class="card widget" id="toc" data-type="toc"><div class="card-content"><div class="menu"><h3 class="menu-label">目录</h3><ul class="menu-list"><li><a class="level is-mobile" href="#Todos"><span class="level-left"><span class="level-item">1</span><span class="level-item">Todos</span></span></a></li><li><a class="level is-mobile" href="#Notes"><span class="level-left"><span class="level-item">2</span><span class="level-item">Notes</span></span></a><ul class="menu-list"><li><a class="level is-mobile" href="#顶部导航栏固定，并且网页端固定，手机端不固定"><span class="level-left"><span class="level-item">2.1</span><span class="level-item">顶部导航栏固定，并且网页端固定，手机端不固定</span></span></a></li><li><a class="level is-mobile" href="#没有显示read-more"><span class="level-left"><span class="level-item">2.2</span><span class="level-item">没有显示read more</span></span></a></li><li><a class="level is-mobile" href="#目录"><span class="level-left"><span class="level-item">2.3</span><span class="level-item">目录</span></span></a></li><li><a class="level is-mobile" href="#优化移动端显示"><span class="level-left"><span class="level-item">2.4</span><span class="level-item">优化移动端显示</span></span></a></li><li><a class="level is-mobile" href="#目录粘性定位"><span class="level-left"><span class="level-item">2.5</span><span class="level-item">目录粘性定位</span></span></a></li><li><a class="level is-mobile" href="#map-color"><span class="level-left"><span class="level-item">2.6</span><span class="level-item">map color</span></span></a></li></ul></li></ul></div></div><script src="/js/toc.js" defer></script></div></div><!--!--></div></div></section><footer class="footer"><div class="container"><div class="level"><div class="level-start"><a class="footer-logo is-block mb-2" href="/">Charles的猫窝</a><p class="is-size-7"><span>&copy; 2024 Charles-wh</span>  Powered by <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> &amp; <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="noopener">Icarus</a><br><div class="is-size-7"><span id="busuanzi_container_site_uv">感谢<strong> <span id="busuanzi_value_site_uv">99+</span> </strong></span>小伙伴的<strong> <span id="busuanzi_value_site_pv">99+</span> </strong>次光临！</div></p></div><div class="level-end"></div></div></div></footer><script src="https://cdnjs.loli.net/ajax/libs/jquery/3.3.1/jquery.min.js"></script><script src="https://cdnjs.loli.net/ajax/libs/moment.js/2.22.2/moment-with-locales.min.js"></script><script src="https://cdnjs.loli.net/ajax/libs/clipboard.js/2.0.4/clipboard.min.js" async></script><script>moment.locale("zh-CN");</script><script>var IcarusThemeSettings = {
+            article: {
+                highlight: {
+                    clipboard: true,
+                    fold: 'unfolded'
+                }
+            }
+        };</script><script src="/js/column.js"></script><script src="/js/animation.js"></script><a id="back-to-top" title="回到顶端" href="javascript:;"><i class="fas fa-chevron-up"></i></a><script src="/js/back_to_top.js" defer></script><!--!--><!--!--><!--!--><!--!--><script src="https://cdnjs.loli.net/ajax/libs/cookieconsent/3.1.1/cookieconsent.min.js" defer></script><script>window.addEventListener("load", () => {
+      window.cookieconsent.initialise({
+        type: "info",
+        theme: "edgeless",
+        static: false,
+        position: "bottom-left",
+        content: {
+          message: "此网站使用Cookie来改善您的体验。",
+          dismiss: "知道了！",
+          allow: "允许使用Cookie",
+          deny: "拒绝",
+          link: "了解更多",
+          policy: "Cookie政策",
+          href: "https://www.cookiesandyou.com/",
+        },
+        palette: {
+          popup: {
+            background: "#edeff5",
+            text: "#838391"
+          },
+          button: {
+            background: "#4b81e8"
+          },
+        },
+      });
+    });</script><script src="https://cdnjs.loli.net/ajax/libs/lightgallery/1.10.0/js/lightgallery.min.js" defer></script><script src="https://cdnjs.loli.net/ajax/libs/justifiedGallery/3.8.1/js/jquery.justifiedGallery.min.js" defer></script><script>window.addEventListener("load", () => {
+            if (typeof $.fn.lightGallery === 'function') {
+                $('.article').lightGallery({ selector: '.gallery-item' });
+            }
+            if (typeof $.fn.justifiedGallery === 'function') {
+                if ($('.justified-gallery > p > .gallery-item').length) {
+                    $('.justified-gallery > p > .gallery-item').unwrap();
+                }
+                $('.justified-gallery').justifiedGallery();
+            }
+        });</script><!--!--><!--!--><!--!--><!--!--><!--!--><script src="/js/main.js" defer></script><div class="searchbox"><div class="searchbox-container"><div class="searchbox-header"><div class="searchbox-input-container"><input class="searchbox-input" type="text" placeholder="想要查找什么..."></div><a class="searchbox-close" href="javascript:;">×</a></div><div class="searchbox-body"></div></div></div><script src="/js/insight.js" defer></script><script>document.addEventListener('DOMContentLoaded', function () {
+            loadInsight({"contentUrl":"/content.json"}, {"hint":"想要查找什么...","untitled":"(无标题)","posts":"文章","pages":"页面","categories":"分类","tags":"标签"});
+        });</script><script type="text/javascript" src="/js/imaegoo/universe.js"></script></body></html>
